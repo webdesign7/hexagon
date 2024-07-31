@@ -49,6 +49,7 @@
 
 .s-services {
     padding: 120px 0 80px;
+    background: none;
 }
 
 .s-services .s-about-title {
@@ -68,7 +69,8 @@
 }
 
 .s-hero1 {
-    background-image: url("/assets/frontend/img/trees1.jpg");
+    /*background-image: url("/assets/frontend/img/trees1.jpg");*/
+    background: none;
 }
 
 .s-services-item-descr {
@@ -113,20 +115,6 @@
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700);
-* {
-    font-family: "Open Sans";
-    box-sizing: border-box;
-    text-align: center;
-    color: #fff;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 figure {
     margin: 0;

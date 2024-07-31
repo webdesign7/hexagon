@@ -5,6 +5,18 @@
 
 @section('content')
 
+
+    <div class="hero-wrapper">
+        <div class="hero">
+            <figure>
+                <video loop="loop" muted="muted" autoplay="autoplay">
+                    <source src="/assets/frontend/video/v1.mp4"/>
+                </video>
+            </figure>
+        </div>
+    </div>
+
+
     <div class="s-hero1">
         <div class="s-hero-content">
             <div class="container">
@@ -26,6 +38,9 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="s-about" id="about">
         <div class="container">
             <div class="s-about-line">
