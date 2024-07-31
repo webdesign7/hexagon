@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Twill;
 
 use A17\Twill\Models\Contracts\TwillModelContract;
+use A17\Twill\Services\Forms\Fields\Medias;
+use A17\Twill\Services\Forms\Fields\Wysiwyg;
 use A17\Twill\Services\Listings\Columns\Text;
 use A17\Twill\Services\Listings\TableColumns;
 use A17\Twill\Services\Forms\Fields\Input;
@@ -28,9 +30,40 @@ class AboutController extends BaseModuleController
     {
         $form = parent::getForm($model);
 
+
         $form->add(
-            Input::make()->name('description')->label('Description')
+            Wysiwyg::make()->name('description')
+                ->toolbarOptions(['link' ])
+                ->label('Description')
         );
+
+        $form->add(
+            Wysiwyg::make()->name('mission')
+                ->toolbarOptions(['link' ])
+                ->label('Our mission')
+        );
+
+
+        $form->add(
+            Wysiwyg::make()->name('what_we_do')
+                ->toolbarOptions(['link' ])
+                ->label('What we do')
+        );
+
+        $form->add(
+            Medias::make()
+                ->name('image1')
+                ->label('Image 1 ')
+                ->max(1)
+        );
+
+        $form->add(
+            Medias::make()
+                ->name('image2')
+                ->label('Image 2')
+                ->max(1)
+        );
+
 
         return $form;
     }

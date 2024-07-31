@@ -21,6 +21,7 @@
         <div class="p-about-bg"></div>
         <div class="container">
             <div class="p-about-line">
+
                 <div class="p-about-block block1">
                     <div class="p-about-img">
                         <img src="/assets/frontend/img/page-about-img1.jpg" alt="img">
@@ -30,54 +31,21 @@
                     <div class="p-about-item">
                         <h2 class="p-about-item-title">OUR MISSION</h2>
                         <div class="p-about-item-text">
-                            <p>I'm a paragraph. Click here to add your own text and edit me.
-                                It’s easy. Just click “Edit Text” or double click me to add your own
-                                content and make changes to the font. Feel free to drag and drop
-                                me anywhere you like on your page</p>
-                            <p>I'm a paragraph. Click here to add your own text and edit me.
-                                It’s easy. Just click “Edit Text” or double click me to add your own
-                                content and make changes to the font. Feel free to drag and drop
-                                me anywhere you like on your page</p>
+                            {!! $page->mission !!}
                         </div>
                     </div>
                 </div>
                 <div class="p-about-block block3">
                     <div class="p-about-item">
-                        <h2 class="p-about-item-title">We're creating the best in interactive entertainment</h2>
+                        <h2 class="p-about-item-title">
+                            OPTIMISED OPERATIONS. EXPERIENCE AND EXPERTISE. DELIVERING IMPACT FOR MEMBERS
+                        </h2>
                         <div class="p-about-item-text">
-                            <p>search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page editors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a </p>
-                            <p>search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page editors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a </p>
-                            <p>search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page editors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a
-                                search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page editors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a
-                                search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page ed
-                            </p>
-                            <p></p>
-                            <p>itors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a
-                                search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page editors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a </p>
-                            <p>search for 'lorem ipsum' will uncover many web sites still in their infanc.
-                                Many desktop publishing packages and web page editors now use.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a </p>
+                            {!! $page->description !!}
                         </div>
                     </div>
+
+
                 </div>
                 <div class="p-about-block block4">
                     <div class="p-about-img">
@@ -97,15 +65,13 @@
                 </div>
                 <div class="p-about-block block6">
                     <div class="p-about-item">
-                        <h2 class="p-about-item-title">WHAT WE VALUE</h2>
+                        <h2 class="p-about-item-title">WHAT WE DO</h2>
                         <div class="p-about-item-text">
-                            <p>I'm a paragraph. Click here to add your own text and edit me.
-                                It’s easy. Just click “Edit Text” or double click me to add your own
-                                content and make changes to the font. Feel free to drag and drop
-                                me anywhere you like on your page</p>
+                            {!!  $page->what_we_do !!}
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

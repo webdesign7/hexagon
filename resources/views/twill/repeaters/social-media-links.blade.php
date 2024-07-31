@@ -16,9 +16,9 @@
             'label' => 'Youtube'
         ],
         [
-            'value' => 'x',
-            'label' => 'X ( former Twitter )'
-        ]
+            'value' => 'linkedin',
+            'label' => 'LinkedIn'
+        ],
     ];
 @endphp
 

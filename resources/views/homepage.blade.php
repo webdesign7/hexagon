@@ -144,7 +144,7 @@
                 launch.
             </div>
             <div class="s-offer-button">
-                <a href="#" class="b-btn transparent"><span>LEARN MORE</span></a>
+                <a href="{{route('about')}}" class="b-btn transparent"><span>LEARN MORE</span></a>
             </div>
         </div>
     </div>
@@ -209,8 +209,21 @@
                         <div class="s-contact-item">
                             <h3 class="s-contact-subtitle">SOCIAL</h3>
                             <ul class="s-contact-soc">
-                                <li><a href="#"><img src="/assets/frontend/img/icon-soc1.png" alt="img"></a></li>
-                                <li><a href="#"><img src="/assets/frontend/img/icon-soc2.png" alt="img"></a></li>
+
+
+                                @if(TwillAppSettings::get('contact.contact-details.social-media-links'))
+                                    @foreach(TwillAppSettings::get('contact.contact-details.social-media-links') as $item)
+
+                                        @if ($item->content['platform'] === 'linkedin')
+                                                <li><a target="_blank" href="{{$item->content['link']}}"><img src="/assets/frontend/img/icon-soc2.png" alt="img"></a></li>
+                                        @endif
+
+                                        @if ($item->content['platform'] === 'instagram')
+                                            <li><a target="_blank" href="{{$item->content['link']}}"><img src="/assets/frontend/img/icon-soc1.png" alt="img"></a></li>
+                                        @endif
+
+                                    @endforeach
+                                @endif
                             </ul>
                         </div>
                         <div class="s-contact-item">

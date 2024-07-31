@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
     <link rel="stylesheet" href="/assets/frontend/css/my.css">
 </head>
-<body class="home">
+<body class="{{request()->route()->getName()}}">
 
 
     <div class="s-wrapper">
@@ -20,8 +20,8 @@
                 <a href="/">HEXAGON</a>
             </div>
             <ul class="s-header-menu">
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="{{route('about')}}">ABOUT US</a></li>
+                <li class="{{request()->route()->getName() === 'home' ? 'active': ''}}"><a href="{{route('home')}}">HOME</a></li>
+                <li class="{{ request()->route()->getName() === 'about' ? 'active' : ''}}"><a href="{{route('about')}}">ABOUT US</a></li>
                 <li><a href="/#services">SERVICES</a></li>
             </ul>
             <a href="/#contact" class="b-btn"><span>CONTACT</span></a>
@@ -36,11 +36,11 @@
         <div class="container">
             <div class="s-menu-inner">
                 <div class="s-header-logo">
-                    <a href="/">HEXAGON</a>
+                    <a href="{{route('home')}}">HEXAGON</a>
                 </div>
                 <ul class="s-header-menu">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="{{route('about')}}">ABOUT US</a></li>
+                    <li class="{{request()->route()->getName() === 'home' ? 'active': ''}}"><a href="{{route('home')}}">HOME</a></li>
+                    <li class="{{ request()->route()->getName() === 'about' ? 'active' : ''}}"><a href="{{route('about')}}">ABOUT US</a></li>
                     <li><a href="/#services">SERVICES</a></li>
                 </ul>
                 <a href="/#contact" class="b-btn"><span>CONTACT</span></a>

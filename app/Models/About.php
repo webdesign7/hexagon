@@ -6,7 +6,7 @@ use A17\Twill\Models\Behaviors\HasMedias;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use A17\Twill\Models\Model;
 
-class About extends Model 
+class About extends Model
 {
     use HasMedias, HasFactory;
 
@@ -14,6 +14,10 @@ class About extends Model
         'published',
         'title',
         'description',
+        'mission',
+        'what_we_do',
+        'image1',
+        'image2'
     ];
-    
+
 }
