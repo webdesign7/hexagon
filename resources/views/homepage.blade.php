@@ -41,7 +41,7 @@
                             helping you to secure success for your members.
                         </div>
                         <div class="s-about-button">
-                            <a href="#" class="b-btn transparent"><span>LEARN MORE</span></a>
+                            <a href="{{route('about')}}" class="b-btn transparent"><span>LEARN MORE</span></a>
                         </div>
                     </div>
                 </div>
