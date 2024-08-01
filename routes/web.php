@@ -14,7 +14,6 @@ Route::get(
 
 Route::post('/contact', [ContactFormController::class, 'submit'])->name('contact.submit');
 
-Route::get("page/{page}", [PageController::class, 'show'])
-    ->name('page');
+Route::get("page/{page}", [PageController::class, 'show'])->name('page');
 
 Route::get('/', HomepageController::class)->name('home');

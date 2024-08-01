@@ -16,6 +16,7 @@ class About extends Model
         'description',
         'mission',
         'what_we_do',
+        'unrivalled',
         'image1',
         'image2'
     ];

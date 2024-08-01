@@ -14,7 +14,7 @@ class PageController extends Controller
 
     public function show(Page $page)
     {
-        return view('site.pages.show', [
+        return view('site.page', [
             'page' => $page
         ]);
     }

@@ -51,6 +51,12 @@ class AboutController extends BaseModuleController
         );
 
         $form->add(
+            Wysiwyg::make()->name('unrivalled')
+                ->toolbarOptions(['link' ])
+                ->label('Unrivalled experience')
+        );
+
+        $form->add(
             Medias::make()
                 ->name('image1')
                 ->label('Image 1 ')

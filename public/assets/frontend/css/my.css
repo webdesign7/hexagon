@@ -1,6 +1,7 @@
 .b-btn {
     height: 46px;
     font-size: 14px;
+    font-weight: 900;
 }
 
 .s-header-menu li a {
@@ -125,6 +126,18 @@
     font-size: 16px;
 }
 
+.s-hero1.about .s-hero-content {
+    align-items: center;
+}
+
+.p-about-line {
+    margin-top: -400px;
+}
+
+.s-header-menu li a {
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 768px) {
     .s-footer-menu li a {
         font-size: 12px;
@@ -173,6 +186,10 @@
 
     .p-about-item-title {
         line-height: 1.1;
+    }
+
+    .s-contact-form-item input, .s-contact-form-item textarea {
+        font-size: 16px;
     }
 }
 
