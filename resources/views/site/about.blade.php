@@ -22,12 +22,12 @@
         <div class="container">
             <div class="p-about-line">
 
-                <div class="p-about-block block1">
+                <div class="p-about-block block1 anim">
                     <div class="p-about-img">
                         <img src="/assets/frontend/img/page-about-img1.jpg" alt="img">
                     </div>
                 </div>
-                <div class="p-about-block block2">
+                <div class="p-about-block block2 ">
                     <div class="p-about-item">
                         <h2 class="p-about-item-title">OUR MISSION</h2>
                         <div class="p-about-item-text">
@@ -35,7 +35,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-about-block block3">
+                <div class="p-about-block block3 anim">
                     <div class="p-about-item">
                         <h2 class="p-about-item-title">
                             OPTIMISED OPERATIONS. EXPERIENCE AND EXPERTISE. DELIVERING IMPACT FOR MEMBERS
@@ -47,12 +47,12 @@
 
 
                 </div>
-                <div class="p-about-block block4">
+                <div class="p-about-block block4 anim">
                     <div class="p-about-img">
                         <img src="/assets/frontend/img/page-about-img2.jpg" alt="img">
                     </div>
                 </div>
-                <div class="p-about-block block5">
+                <div class="p-about-block block5 anim">
                     <div class="p-about-item center">
                         <h2 class="p-about-item-title">UNRIVALLED EXPERTISE</h2>
                         <div class="p-about-item-text">
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="p-about-block block6">
+                <div class="p-about-block block6 anim">
                     <div class="p-about-item">
                         <h2 class="p-about-item-title">WHAT WE DO</h2>
                         <div class="p-about-item-text">

@@ -9,6 +9,7 @@
                     <li><a href="{{route('home')}}">HOME</a></li>
                     <li><a href="{{route('about')}}">ABOUT</a></li>
                     <li><a href="/#services">SERVICES</a></li>
+                    <li><a href="{{route('blogs')}}">NEWS</a></li>
                     <li><a href="/#contact">CONTACT</a></li>
                 </ul>
                 <ul class="s-footer-menu flex">

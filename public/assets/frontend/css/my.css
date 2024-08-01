@@ -68,7 +68,7 @@
     background-image: url("/assets/frontend/img/why.jpeg");
 }
 
-.s-hero1 {
+.s-hero1, .p-about-bg {
     background-image: url("/assets/frontend/img/trees1.jpg");
 }
 
@@ -136,6 +136,10 @@
 
 .s-header-menu li a {
     font-size: 20px;
+}
+
+.p-about-blog, .p-about-article {
+    margin-top: -330px;
 }
 
 @media only screen and (max-width: 768px) {
