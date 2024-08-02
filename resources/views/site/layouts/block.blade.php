@@ -43,6 +43,7 @@
                     <li class="{{request()->route()->getName() === 'home' ? 'active': ''}}"><a href="{{route('home')}}">HOME</a></li>
                     <li class="{{ request()->route()->getName() === 'about' ? 'active' : ''}}"><a href="{{route('about')}}">ABOUT US</a></li>
                     <li><a href="/#services">SERVICES</a></li>
+                    <li class="{{ request()->route()->getName() === 'blogs' ? 'active' : ''}}"><a href="{{route('blogs')}}">NEWS</a></li>
                 </ul>
                 <a href="/#contact" class="b-btn"><span>CONTACT</span></a>
             </div>
