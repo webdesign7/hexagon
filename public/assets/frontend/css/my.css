@@ -130,17 +130,13 @@
     align-items: center;
 }
 
-.p-about-line {
-    margin-top: -330px;
-}
+
 
 .s-header-menu li a {
     font-size: 20px;
 }
 
-.p-about-blog, .p-about-article {
-    margin-top: -330px;
-}
+
 
 @media only screen and (max-width: 768px) {
     .s-footer-menu li a {
@@ -173,19 +169,9 @@
         padding-bottom: 250px;
     }
 
-    #pblogs.p-about {
-        padding-bottom: 160px;
-        margin-top: 100px;
-    }
 
 
-    .about .p-about-line{ display: -webkit-box;display: -ms-flexbox;display: flex;margin: -287px -15px -30px;-ms-flex-wrap: wrap;flex-wrap: wrap; }
-    .blogs .p-about-line{ display: -webkit-box;display: -ms-flexbox;display: flex;margin: -207px -15px -30px;-ms-flex-wrap: wrap;flex-wrap: wrap; }
 
-    .p-about-bg {
-        top: 204px;
-        height: calc(100% - 204px);
-    }
 
     .s-hero-content {
         align-items: baseline;
