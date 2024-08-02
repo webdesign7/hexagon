@@ -131,7 +131,7 @@
 }
 
 .p-about-line {
-    margin-top: -400px;
+    margin-top: -330px;
 }
 
 .s-header-menu li a {
@@ -173,11 +173,14 @@
         padding-bottom: 250px;
     }
 
-    .p-about {
+    #pblogs.p-about {
         padding-bottom: 160px;
+        margin-top: 100px;
     }
 
-    .p-about-line{ display: -webkit-box;display: -ms-flexbox;display: flex;margin: -207px -15px -30px;-ms-flex-wrap: wrap;flex-wrap: wrap; }
+
+    .about .p-about-line{ display: -webkit-box;display: -ms-flexbox;display: flex;margin: -287px -15px -30px;-ms-flex-wrap: wrap;flex-wrap: wrap; }
+    .blogs .p-about-line{ display: -webkit-box;display: -ms-flexbox;display: flex;margin: -207px -15px -30px;-ms-flex-wrap: wrap;flex-wrap: wrap; }
 
     .p-about-bg {
         top: 204px;
@@ -192,8 +195,23 @@
         line-height: 1.1;
     }
 
+    .p-about-line {
+        gap: unset;
+    }
+
     .s-contact-form-item input, .s-contact-form-item textarea {
         font-size: 16px;
+    }
+
+    .p-about-switch li a {
+        font-size: 18px;
+    }
+    .p-about-item-text, .p-about-descr {
+        line-height: 24px;
+    }
+
+    .p-about-blog-line {
+        padding-top: 20px;
     }
 }
 

@@ -24,9 +24,7 @@
                         <li class="active"><a href="#">ALL</a></li>
                         <li><a href="#">FINANCE</a></li>
                         <li><a href="#">HMRC</a></li>
-                        <li><a href="#">LIFESTYLE</a></li>
                         <li><a href="#">INVESTMENTS</a></li>
-                        <li><a href="#">TEST</a></li>
                     </ul>
 
                     @php $i = 0; @endphp
