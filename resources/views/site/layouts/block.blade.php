@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Hexagon</title>
     <link rel="stylesheet" href="/assets/frontend/css/libs.min.css">
-    <link rel="stylesheet" href="/assets/frontend/css/main.css">
+    <link rel="stylesheet" href="/assets/frontend/css/main.css?v1">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
-    <link rel="stylesheet" href="/assets/frontend/css/my.css">
+    <link rel="stylesheet" href="/assets/frontend/css/my.css?v1">
 </head>
 <body class="{{request()->route()->getName()}}">
 
@@ -61,7 +61,7 @@
 
 
 <script src="/assets/frontend/js/libs.min.js"></script>
-<script src="/assets/frontend/js/common.js"></script>
+<script src="/assets/frontend/js/common.js?v1"></script>
 
 </body>
 </html>
