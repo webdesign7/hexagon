@@ -107,10 +107,9 @@
         <div class="container">
             <h2 class="s-about-title">SERVICES</h2>
             <div class="s-services-descr">
-                I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                double
-                click me to add your own content and make changes to the font. I’m a great place for you t
-                o tell a story and let your users know a little more about you.
+                Hexagon offers comprehensive services for setting up and operating trade associations.
+                With our extensive experience in managing every facet of trade and member associations, we can optimise your operations for maximum efficiency and effectiveness.
+                Explore our full range of services below
             </div>
             <div class="s-services-line flex">
                 @foreach($services as $service)
