@@ -69,11 +69,11 @@
 }
 
 .s-why-inner{
-    background-image: url("/assets/frontend/img/why.jpeg");
+    background-image: url("/assets/frontend/img/home-why.jpg");
 }
 
 .s-hero1, .p-about-bg {
-    background-image: url("/assets/frontend/img/trees1.jpg");
+    background-image: url("/assets/frontend/img/services-bg1.jpg");
 }
 
 .s-services-item-descr {
@@ -134,7 +134,9 @@
     align-items: center;
 }
 
-
+.s-breadcrumb li {
+    font-weight: bolder;
+}
 
 .s-header-menu li a {
     font-size: 20px;

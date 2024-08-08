@@ -27,7 +27,7 @@
                 </div>
                 <div class="p-about-block block1">
                     <div class="p-about-img">
-                        <img src="/assets/frontend/img/page-about-img1.jpg" alt="img">
+                        <img src="/assets/frontend/img/about-1.jpg" alt="img">
                     </div>
                 </div>
                 <div class="p-about-block block2 anim">
@@ -52,7 +52,7 @@
                 </div>
                 <div class="p-about-block block4 anim">
                     <div class="p-about-img">
-                        <img src="/assets/frontend/img/page-about-img2.jpg" alt="img">
+                        <img src="/assets/frontend/img/about-2.jpg" alt="img">
                     </div>
                 </div>
                 <div class="p-about-block block5 anim">
