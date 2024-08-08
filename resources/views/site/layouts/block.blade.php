@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/assets/frontend/css/main.css?v1">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
-    <link rel="stylesheet" href="/assets/frontend/css/my.css?v1">
+    <link rel="stylesheet" href="/assets/frontend/css/my.css?v2">
 </head>
 <body class="{{request()->route()->getName()}}">
 
