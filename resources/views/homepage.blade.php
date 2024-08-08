@@ -107,7 +107,7 @@
         <div class="container">
             <h2 class="s-about-title">SERVICES</h2>
             <div class="s-services-descr">
-                Hexagon offers comprehensive services for setting up and operating trade associations.
+                Hexagon offers comprehensive services for setting up and operating trade associations.<br>
                 With our extensive experience in managing every facet of trade and member associations, we can optimise your operations for maximum efficiency and effectiveness.
                 Explore our full range of services below
             </div>
