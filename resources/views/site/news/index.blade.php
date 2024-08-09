@@ -17,16 +17,13 @@
             <div class="container">
                 <div class="p-about-blog">
                     <h2 class="s-about-title">
-                        NEWS
+                        BLOG
                     </h2>
                     <div class="p-about-descr">
                         The latest news and blogs across many topics impacting the trading consulting industry.<br> Explore our news and views
                     </div>
                     <ul class="p-about-switch">
-                        <li class="active"><a href="#">ALL</a></li>
-                        <li><a href="#">FINANCE</a></li>
-                        <li><a href="#">HMRC</a></li>
-                        <li><a href="#">INVESTMENTS</a></li>
+                        <li><a href={{route('blogs-archive')}}>ARCHIVE</a></li>
                     </ul>
 
                     @php $i = 0; @endphp

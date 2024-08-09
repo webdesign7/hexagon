@@ -72,6 +72,10 @@
                                         <li><a target="_blank" href="{{$item->content['link']}}"><img src="/assets/frontend/img/icon-soc1.png" alt="img"></a></li>
                                     @endif
 
+                                        @if ($item->content['platform'] === 'threads')
+                                            <li><a target="_blank" href="https://www.threads.net/{{$item->content['link']}}"><img style="width: 32px" src="/assets/frontend/img/Threads-Logo.png" alt="img"></a></li>
+                                        @endif
+
                                 @endforeach
                             @endif
                         </ul>

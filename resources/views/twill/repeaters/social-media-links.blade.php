@@ -19,6 +19,10 @@
             'value' => 'linkedin',
             'label' => 'LinkedIn'
         ],
+        [
+            'value' => 'threads',
+            'label' => 'Threads'
+        ],
     ];
 @endphp
 

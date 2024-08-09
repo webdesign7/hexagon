@@ -18,6 +18,7 @@ Route::post('/contact', [ContactFormController::class, 'submit'])->name('contact
 Route::get("page/{page}", [PageController::class, 'show'])->name('page');
 
 Route::get("news", [NewsController::class, 'index'])->name('blogs');
+Route::get("news/archive", [NewsController::class, 'archive'])->name('blogs-archive');
 Route::get("news/{blog}", [NewsController::class, 'show'])->name('blog-item');
 
 

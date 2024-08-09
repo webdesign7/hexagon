@@ -41,10 +41,10 @@
                 <div class="p-about-block block3">
                     <div class="p-about-item">
                         <h2 class="p-about-item-title">
-                            OPTIMISED OPERATIONS. EXPERIENCE AND EXPERTISE. DELIVERING IMPACT FOR MEMBERS
+                            WHAT WE DO
                         </h2>
                         <div class="p-about-item-text">
-                            {!! $page->description !!}
+                            {!!  $page->what_we_do !!}
                         </div>
                     </div>
 
@@ -65,9 +65,9 @@
                 </div>
                 <div class="p-about-block block6 anim">
                     <div class="p-about-item">
-                        <h2 class="p-about-item-title">WHAT WE DO</h2>
+                        <h2 class="p-about-item-title">OPTIMISED OPERATIONS. EXPERIENCE AND EXPERTISE. DELIVERING IMPACT FOR MEMBERS</h2>
                         <div class="p-about-item-text">
-                            {!!  $page->what_we_do !!}
+                            {!! $page->description !!}
                         </div>
                     </div>
                 </div>

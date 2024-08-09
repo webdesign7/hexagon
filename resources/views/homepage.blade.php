@@ -31,7 +31,7 @@
             <div class="s-about-line">
                 <div class="s-about-block block1">
                     <div class="s-about-info">
-                        <h2 class="s-about-title">ABOUT US.</h2>
+                        <h2 class="s-about-title">ABOUT US</h2>
                         <div class="s-about-descr">
                             Hexagon specialises in association management services for trade bodies.
                             With a deep understanding of industry dynamics, We offer a comprehensive suite of
@@ -81,20 +81,20 @@
                             <div class="s-why-text">
                                 <div class="s-why-text-item">Hexagon is the leading provider of total Association Management for trade associations.</div>
                                 <div class="s-why-text-item">
-                                    <h3><span>WE ARE</span> Impartial:</h3>
+                                    <h3>We are <span> Impartial </span></h3>
                                     <p>We support all sectors. We are experts in optimising all
-                                        trade association operations</p>
+                                        trade association operations.</p>
                                 </div>
                                 <div class="s-why-text-item">
-                                    <h3><span>WE ARE</span> Specialist:</h3>
+                                    <h3>We are <span>Specialist</span> </h3>
                                     <p>We know trade association dynamics. We specialise in managing
                                         the unique relationship politics of trade associations.</p>
                                 </div>
                                 <div class="s-why-text-item">
-                                    <h3><span>WE ARE</span> Expert:</h3>
+                                    <h3>We are <span>Expert</span></h3>
                                     <p>We know how to found, grow and promote associations.
                                         We have founded, operated, chaired and shaped associations
-                                        in 6 countries across Europe</p>
+                                        in 6 countries across Europe.</p>
                                 </div>
                             </div>
                         </div>
