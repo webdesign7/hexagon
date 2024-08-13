@@ -22,7 +22,7 @@
                     <div class="p-about-descr">
                         The latest news and blogs across many topics impacting the trading consulting industry.<br> Explore our news and views
                     </div>
-                    <ul class="p-about-switch">
+                    <ul style="display: none" class="p-about-switch">
                         <li><a href={{route('blogs-archive')}}>ARCHIVE</a></li>
                     </ul>
 
