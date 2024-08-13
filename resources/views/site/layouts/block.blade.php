@@ -6,10 +6,10 @@
     <title>Hexagon</title>
     <link href="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/frontend/css/libs.min.css">
-    <link rel="stylesheet" href="/assets/frontend/css/main.css?v1">
+    <link rel="stylesheet" href="/assets/frontend/css/main.css?v4">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
-    <link rel="stylesheet" href="/assets/frontend/css/my.css?v3">
+    <link rel="stylesheet" href="/assets/frontend/css/my.css?v4">
 </head>
 <body class="{{request()->route()->getName()}}">
 
