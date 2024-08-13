@@ -4,7 +4,8 @@
 @extends('site.layouts.block')
 @section('content')
     <div class="s-page-inner" >
-        <div class="s-hero1 about">
+        <div class="s-hero1 about js-anim">
+            <img class="jarallax-img" src="/assets/frontend/img/services-bg1.jpg" alt="">
             <div class="s-hero-content">
                 <div class="container">
                     <h2 class="s-about-title article">

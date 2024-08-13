@@ -72,9 +72,6 @@
     background-image: url("/assets/frontend/img/home-why.jpg");
 }
 
-.s-hero1, .p-about-bg {
-    background-image: url("/assets/frontend/img/services-bg1.jpg");
-}
 
 .s-services-item-descr {
     line-height: 24px;

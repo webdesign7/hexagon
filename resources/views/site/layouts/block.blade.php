@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>Hexagon</title>
+    <link href="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/frontend/css/libs.min.css">
     <link rel="stylesheet" href="/assets/frontend/css/main.css?v1">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
@@ -49,17 +50,12 @@
             </div>
         </div>
     </div>
-    <div class="s-top">
-        <div class="s-hero">
-
-        </div>
-    </div>
     <div class="s-page-inner">
         @yield('content')
     </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.js"></script>
 <script src="/assets/frontend/js/libs.min.js"></script>
 <script src="/assets/frontend/js/common.js?v1"></script>
 
