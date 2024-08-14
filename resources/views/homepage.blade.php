@@ -1,5 +1,5 @@
-@section('title', strip_tags(__('homepage.header-title')))
-@section('description', $homepage->description)
+@section('description', TwillAppSettings::get('seo.seo.description'))
+@section('title', TwillAppSettings::get('seo.seo.title'))
 
 @extends('site.layouts.block')
 

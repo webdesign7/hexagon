@@ -34,6 +34,16 @@ class PageController extends BaseModuleController
                 ->label('Description')
         );
 
+
+        $form->add(
+            Input::make()->name('meta_description')->label('Description')
+        );
+
+        $form->add(
+            Input::make()->name('meta_title')->label('Title')
+        );
+
+
         return $form;
     }
 

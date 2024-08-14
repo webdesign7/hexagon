@@ -1,9 +1,8 @@
 @section('title', 'News')
-@section('description', 'About')
+@section('description', 'News')
 
 @extends('site.layouts.block')
 @section('content')
-
 
         <div class="s-hero1 about blog">
             <div class="s-hero-content">

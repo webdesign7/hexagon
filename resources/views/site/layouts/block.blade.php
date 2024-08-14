@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>Hexagon</title>
+    <title>Hexagon - @yield('title')</title>
+    <meta name="description" content="@yield('description')">
     <link href="https://cdn.jsdelivr.net/npm/jarallax@2/dist/jarallax.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/frontend/css/libs.min.css">
     <link rel="stylesheet" href="/assets/frontend/css/main.css?v4">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
     <link rel="stylesheet" href="/assets/frontend/css/my.css?v4">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body class="{{request()->route()->getName()}}">
 

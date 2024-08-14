@@ -1,5 +1,5 @@
-@section('title', 'News')
-@section('description', 'About')
+@section('title', $item->meta_title)
+@section('description', $item->meta_description)
 
 @extends('site.layouts.block')
 @section('content')

@@ -16,6 +16,8 @@ class Page extends Model
         'published',
         'title',
         'description',
+        'meta_description',
+        'meta_title',
     ];
 
     public $slugAttributes = [

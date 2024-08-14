@@ -18,7 +18,9 @@ class About extends Model
         'what_we_do',
         'unrivalled',
         'image1',
-        'image2'
+        'image2',
+        'meta_title',
+        'meta_description',
     ];
 
 }

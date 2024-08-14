@@ -17,6 +17,8 @@ class Blog extends Model
         'published',
         'title',
         'description',
+        'meta_title',
+        'meta_description',
         'short_description',
         'image',
     ];
