@@ -139,6 +139,10 @@
     font-size: 18px;
 }
 
+.p-about .s-about-title {
+    font-size: 54px;
+}
+
 @media only screen and (max-width: 1600px) {
     .s-offer .s-about-title {
         font-size: 57px;

@@ -3,15 +3,7 @@
 
 @extends('site.layouts.block')
 @section('content')
-    <div class="s-hero1 about">
-        <div class="s-hero-content">
-            <div class="container">
-
-            </div>
-        </div>
-    </div>
     <div class="p-about">
-        <div class="p-about-bg"></div>
         <div class="container">
             <div class="p-about-article">
                 <h2 class="s-about-title article">
