@@ -112,10 +112,6 @@
     padding-top: 30px;
 }
 
-.s-hero-content {
-    align-items: flex-end;
-}
-
 .s-menu .s-header-menu li a {
     font-size: 24px;
 }
@@ -158,6 +154,10 @@
         font-size: 12px;
     }
 
+    .p-about .s-about-title {
+        font-size: 38px;
+    }
+
     .s-hero-title span.text1 {
         font-size: 38px;
         margin-top: 20px;
@@ -185,12 +185,6 @@
     }
 
 
-
-
-
-    .s-hero-content {
-        align-items: baseline;
-    }
 
     .p-about-item-title {
         line-height: 1.1;

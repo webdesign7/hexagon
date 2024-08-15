@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/frontend/css/main.css?v5">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
-    <link rel="stylesheet" href="/assets/frontend/css/my.css?v5">
+    <link rel="stylesheet" href="/assets/frontend/css/my.css?v6">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
