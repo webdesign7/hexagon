@@ -6,10 +6,10 @@
     <title>Hexagon - @yield('title')</title>
     <meta name="description" content="@yield('description')">
     <link rel="stylesheet" href="/assets/frontend/css/libs.min.css">
-    <link rel="stylesheet" href="/assets/frontend/css/main.css?v4">
+    <link rel="stylesheet" href="/assets/frontend/css/main.css?v5">
     <link rel="stylesheet" href="/assets/frontend/css/fonts.css">
     <link rel="stylesheet" href="/assets/frontend/css/anim.css">
-    <link rel="stylesheet" href="/assets/frontend/css/my.css?v4">
+    <link rel="stylesheet" href="/assets/frontend/css/my.css?v5">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -59,7 +59,7 @@
     </div>
 
 <script src="/assets/frontend/js/libs.min.js"></script>
-<script src="/assets/frontend/js/common.js?v1"></script>
+<script src="/assets/frontend/js/common.js?v2"></script>
 
     <!-- Cookie Consent by FreePrivacyPolicy.com https://www.FreePrivacyPolicy.com -->
     <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
