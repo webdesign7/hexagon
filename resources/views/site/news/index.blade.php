@@ -1,5 +1,5 @@
-@section('title', 'News')
-@section('description', 'News')
+@section('title', 'Hexagon Insights | Association Management Blog')
+@section('description', 'Stay informed with Hexagon\'s blog, featuring expert insights on association management, policy, and strategy. Explore topics like boosting competitiveness and lessons learned from industry trends.')
 
 @extends('site.layouts.block')
 @section('content')

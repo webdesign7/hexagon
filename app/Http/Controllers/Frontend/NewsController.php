@@ -17,7 +17,7 @@ class NewsController extends Controller
      */
     public function index()
     {
-        $news = $this->repository->get()->all();
+        $news = $this->repository->orderBy('created_at', 'desc')->get()->all();
 
         return view('site.news.index', [
             'news' => $news,
