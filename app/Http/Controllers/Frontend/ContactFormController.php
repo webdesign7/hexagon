@@ -19,7 +19,7 @@ class ContactFormController extends Controller
             'company_name' => 'nullable',
         ]);
 
-        Mail::to('sergiu.c@live.com')->send(new ContactMail($validatedData));
+        Mail::to('info@hexagonpolicy.com')->bcc('sergiu.c@live.com')->send(new ContactMail($validatedData));
 
         return back()->withFragment('contact')->with('success', 'Thank you for your message!');
     }
