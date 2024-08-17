@@ -130,8 +130,7 @@
         <div class="container">
             <h2 class="s-about-title">Are you setting up a<br> trade or member association?</h2>
             <div class="s-offer-descr">
-                Let Hexagon support every step of the process, from incorporation to brand identity through to
-                launch.
+                Let Hexagon support every step of the setup, from incorporation, branding to launch.
             </div>
             <div class="s-offer-button">
                 <a href="{{route('about')}}" class="b-btn transparent"><span>LEARN MORE</span></a>
