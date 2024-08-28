@@ -33,9 +33,9 @@
                     <div class="s-about-info">
                         <h2 class="s-about-title">ABOUT US</h2>
                         <div class="s-about-descr">
-                            <p>Hexagon is a dedicated association management agency for trade, membership and industry bodies.<br>
-                            With a deep understanding of association dynamics, we offer a comprehensive suite of services designed to enhance operations, member engagement and integrated communications.
-                                We design tailored solutions by leveraging our extensive experience of founding, operating and restructuring associations of all types, helping you to secure success for your members.</p>
+                            <p>
+                                {{$homepage->about_us}}
+                            </p>
                         </div>
                         <div class="s-about-button">
                             <a href="{{route('about')}}" class="b-btn transparent"><span>LEARN MORE</span></a>
@@ -100,7 +100,7 @@
         <div class="container">
             <h2 class="s-about-title">SERVICES</h2>
             <div class="s-services-descr">
-                Hexagon offers a comprehensive suite of services for setting up and operating trade, member and industry associations. With our extensive experience in managing every facet of associations, we can optimise your operations for maximum efficiency and effectiveness. Explore our full range of services below.
+                {{$homepage->services}}
             </div>
             <div class="s-services-line flex">
                 @foreach($services as $service)

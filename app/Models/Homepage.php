@@ -6,7 +6,7 @@ use A17\Twill\Models\Behaviors\HasMedias;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use A17\Twill\Models\Model;
 
-class Homepage extends Model 
+class Homepage extends Model
 {
     use HasMedias, HasFactory;
 
@@ -14,6 +14,8 @@ class Homepage extends Model
         'published',
         'title',
         'description',
+        'about_us',
+        'services',
     ];
-    
+
 }

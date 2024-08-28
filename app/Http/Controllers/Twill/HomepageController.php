@@ -32,6 +32,14 @@ class HomepageController extends BaseModuleController
             Input::make()->name('description')->label('Description')
         );
 
+        $form->add(
+            Input::make()->type('textarea')->name('about_us')->label('About Us ( Section )')
+        );
+
+        $form->add(
+            Input::make()->type('textarea')->name('services')->label('Services ( Section )')
+        );
+
         return $form;
     }
 
