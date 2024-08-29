@@ -23,4 +23,36 @@ class About extends Model
         'meta_description',
     ];
 
+    public $mediasParams = [
+        'image1' => [
+            'default' => [
+                [
+                    'name' => 'default',
+                    'ratio' => 16 / 9,
+                ],
+            ],
+            'mobile' => [
+                [
+                    'name' => 'default',
+                    'ratio' => 1,
+                ],
+            ],
+        ],
+        'image2' => [
+            'default' => [
+                [
+                    'name' => 'default',
+                    'ratio' => 16 / 7,
+                ],
+            ],
+            'mobile' => [
+                [
+                    'name' => 'default',
+                    'ratio' => 1,
+                ],
+            ],
+        ],
+    ];
+
+
 }

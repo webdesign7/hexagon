@@ -28,7 +28,7 @@ class ServiceController extends BaseModuleController
         $form = parent::getForm($model);
 
         $form->add(
-            Input::make()->name('description')->label('Description')
+            Input::make()->type('textarea')->name('description')->label('Description')
         );
 
         return $form;

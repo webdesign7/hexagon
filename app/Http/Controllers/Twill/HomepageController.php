@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Twill;
 
 use A17\Twill\Models\Contracts\TwillModelContract;
+use A17\Twill\Services\Forms\Fields\Repeater;
+use A17\Twill\Services\Forms\InlineRepeater;
 use A17\Twill\Services\Listings\Columns\Text;
 use A17\Twill\Services\Listings\TableColumns;
 use A17\Twill\Services\Forms\Fields\Input;
@@ -29,10 +31,6 @@ class HomepageController extends BaseModuleController
         $form = parent::getForm($model);
 
         $form->add(
-            Input::make()->name('description')->label('Description')
-        );
-
-        $form->add(
             Input::make()->type('textarea')->name('about_us')->label('About Us ( Section )')
         );
 
@@ -40,20 +38,20 @@ class HomepageController extends BaseModuleController
             Input::make()->type('textarea')->name('services')->label('Services ( Section )')
         );
 
-        return $form;
-    }
-
-    /**
-     * This is an example and can be removed if no modifications are needed to the table.
-     */
-    protected function additionalIndexTableColumns(): TableColumns
-    {
-        $table = parent::additionalIndexTableColumns();
-
-        $table->add(
-            Text::make()->field('description')->title('Description')
+        $form->add(
+        InlineRepeater::make()
+            ->name('why')
+            ->label('Why block')
+            ->fields([
+                Input::make()
+                    ->label('We are ...')
+                    ->name('we_are'),
+                Input::make()
+                    ->label('Content')
+                    ->name('content')
+            ])
         );
 
-        return $table;
+        return $form;
     }
 }

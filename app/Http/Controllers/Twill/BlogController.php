@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Twill;
 use A17\Twill\Models\Contracts\TwillModelContract;
 use A17\Twill\Services\Forms\Fields\Medias;
 use A17\Twill\Services\Forms\Fields\Wysiwyg;
+use A17\Twill\Services\Listings\Columns\Image;
 use A17\Twill\Services\Listings\Columns\Text;
 use A17\Twill\Services\Listings\TableColumns;
 use A17\Twill\Services\Forms\Fields\Input;
@@ -58,6 +59,34 @@ class BlogController extends BaseModuleController
 
         return $form;
     }
+
+
+    protected function getIndexTableColumns(): TableColumns
+    {
+        $columns = new TableColumns();
+
+        $columns->add(
+            Image::make()
+                ->field('image')
+                ->title('Image'),
+        );
+        $columns->add(
+            Text::make()
+                ->field('title')
+                ->title('Title'),
+        );
+
+        $columns->add(
+            Text::make()
+                ->field('short_description')
+                ->title('Short description'),
+        );
+
+
+
+        return $columns;
+    }
+
 
     /**
      * This is an example and can be removed if no modifications are needed to the table.

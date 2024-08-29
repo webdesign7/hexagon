@@ -16,6 +16,11 @@ class Homepage extends Model
         'description',
         'about_us',
         'services',
+        'why',
+    ];
+
+    protected $casts = [
+        'why' => 'array'
     ];
 
 }

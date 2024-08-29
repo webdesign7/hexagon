@@ -77,18 +77,15 @@
                             <h2 class="s-about-title">WHY HEXAGON? </h2>
                             <div class="s-why-text">
                                 <div class="s-why-text-item">Hexagon provides total association management for trade, member and industry associations.</div>
-                                <div class="s-why-text-item">
-                                    <h3>We are <span> Impartial </span></h3>
-                                    <p>We support all sectors. Our specialism extends across all types of trade, industry and member association and bodies. </p>
-                                </div>
-                                <div class="s-why-text-item">
-                                    <h3>We are <span>Specialist</span> </h3>
-                                    <p>We know association dynamics. We specialise in managing the unique relationship politics of trade, industry and member associations.</p>
-                                </div>
-                                <div class="s-why-text-item">
-                                    <h3>We are <span>Expert</span></h3>
-                                    <p>We know how to found, grow and promote associations. We have established, launched, operated, chaired and shaped associations across the UK and Europe. </p>
-                                </div>
+
+                                @foreach($homepage->why as $item)
+
+                                    <div class="s-why-text-item">
+                                        <h3>We are <span> {{ $item['we_are'] }} </span></h3>
+                                        <p>{{$item['content']}}</p>
+                                    </div>
+
+                                @endforeach
                             </div>
                         </div>
                     </div>
