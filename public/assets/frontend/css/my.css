@@ -12,6 +12,10 @@
     font-weight: 800;
 }
 
+.text-danger {
+    color: #e31a22;
+}
+
 .s-why-text {
     font-size: 18px;
     line-height: 28px;

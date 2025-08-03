@@ -8,7 +8,10 @@
                         Send us a message
                     </div>
                     <div class="s-contact-form">
-                        <form method="POST" action="{{ route('contact.submit') }}">
+
+                        <div id="contact-form"></div>
+
+                        <form method="POST" action="{{ route('contact.submit').'#contact-form' }}">
                             @csrf
 
                             @if(Session::has('success'))
@@ -21,29 +24,69 @@
                                 <div class="s-contact-form-block">
                                     <div class="s-contact-form-item">
                                         <input type="text" name="name" placeholder="Full Name">
+
+                                        @error('name')
+                                            <div style="display: inline-block;" class="text-danger">{{ $message }}</div>
+                                        @enderror
+
                                     </div>
                                 </div>
                                 <div class="s-contact-form-block">
                                     <div class="s-contact-form-item">
                                         <input type="text" name="company_name" placeholder="Company name">
+                                        @error('company_name')
+                                        <div style="display: inline-block;" class="text-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="s-contact-form-block">
                                     <div class="s-contact-form-item">
                                         <input type="text" name="phone" placeholder="Phone">
+                                        @error('phone')
+                                        <div style="display: inline-block;" class="text-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="s-contact-form-block">
                                     <div class="s-contact-form-item">
                                         <input type="text" name="email" placeholder="Email">
+                                        @error('email')
+                                        <div style="display: inline-block;" class="text-danger">{{ $message }}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="s-contact-form-block full">
                                     <div class="s-contact-form-item">
                                                 <textarea name="message"
                                                           placeholder="Type your message here ..."></textarea>
+                                        @error('message')
+                                        <div style="display: inline-block;" class="text-danger">{{ $message }}</div>
+                                        @enderror
+
                                     </div>
                                 </div>
+
+                                <div class="s-contact-form-block">
+
+                                    <img style="max-width: 130px; max-height: 64px; display: inline-block" src="{{ captcha_src('math') }}" alt="captcha">
+
+                                    <div class="s-contact-form-item">
+                                    <input type="text"
+                                           name="captcha"
+                                           class="form-control @error('captcha') is-invalid @enderror" placeholder="Please Insert Verification Answer."
+                                    >
+                                    </div>
+
+                                    @error('captcha')
+                                    <div style="display: inline-block" class="text-danger">{{ $message }}</div>
+                                    @enderror
+
+                                </div>
+
+
+
+
+
                                 <div class="s-contact-form-block full">
                                     <div class="s-contact-form-btn">
                                         <button type="submit" class="b-btn"><span>SUBMIT</span></button>

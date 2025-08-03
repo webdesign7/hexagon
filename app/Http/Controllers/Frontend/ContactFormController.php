@@ -3,21 +3,15 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ContactFormRequest;
 use App\Mail\ContactMail;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
-    public function submit(Request $request)
+    public function submit(ContactFormRequest $request)
     {
-        $validatedData = $request->validate([
-            'name' => 'required|min:3|max:255',
-            'email' => 'required|email',
-            'message' => 'required|min:10',
-            'phone' => 'nullable',
-            'company_name' => 'nullable',
-        ]);
+        $validatedData = $request->validated();
 
         Mail::to('info@hexagonpolicy.com')->bcc('sergiu.c@live.com')->send(new ContactMail($validatedData));
 
